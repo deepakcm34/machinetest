@@ -18,8 +18,6 @@ metadata:
   name: mysql-pv-claim
   labels:
     app: wordpress
-  annotations:
-    volume.beta.kubernetes.io/storage-class: "ebs"
 spec:
   accessModes:
     - ReadWriteOnce
