@@ -4,4 +4,4 @@ metadata:
   name: ebs
 provisioner: kubernetes.io/aws-ebs
 parameters:
-  zone: "us-east-1c"
+  zone: "us-east-1b,us-east-1c"
