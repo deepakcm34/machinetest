@@ -18,9 +18,9 @@ NB: You do not have to do any manual setup in-order to build this cluster. I hav
 
 3: Install the Terraform v0.12.26 in the bastion host
 
-3: Create a file "/root/kube-scripts/out.txt" in your bastion host (This is to cut the subnets for the VPC)
+4: Create a file "/root/kube-scripts/out.txt" in your bastion host (This is to cut the subnets for the VPC)
 
-4: Add a zone in the route53
+5: Add a zone in the route53
 
 Once you setup all the above 3, you can clone the git repo to your bastion host.
 
